@@ -82,7 +82,7 @@
 
 <br clear="both">
 
-<img src="https://github.com/dembA7/dembA7/blob/output/github-contribution-grid-snake.gif" alt="Snake animation" />
+![snake_gif](https://github.com/dembA7/dembA7/blob/output/github-contribution-grid-snake.gif)
 
 ###
 
