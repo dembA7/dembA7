@@ -13,7 +13,7 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
@@ -63,7 +63,7 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <a href="http://discordapp.com/users/596252072974876672" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
   </a>
@@ -86,7 +86,9 @@
 
 ###
 
-<div align="left">
+<br clear="both">
+
+<div align="center">
   <img src="https://spotify-recently-played-readme.vercel.app/api?user=22kvfudtnpb26djwiolqbeggy" alt="Spotify recently played"  />
 </div>
 
