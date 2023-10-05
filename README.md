@@ -2,10 +2,9 @@
 
 ###
 
-<div align="center">
-  (https://github-readme-stats.vercel.app/api?username=dembA7&hide=contribs,prs)
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dembA7&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+[![dembA7's GitHub stats](https://github-readme-stats.vercel.app/api?username=dembA7&theme=dracula&hide=contribs,issues)](https://github.com/dembA7/github-readme-stats)
+###
+[![dembA7's GitHub languages](https://github-readme-stats.vercel.app/api/top-langs?username=dembA7&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false")](https://github.com/dembA7/github-readme-stats)
 
 ###
 
