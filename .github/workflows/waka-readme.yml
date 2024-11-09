@@ -25,24 +25,3 @@ jobs:
           SHOW_TIME: true
           SHOW_TOTAL: true
           BLOCKS: ->
-          
-      - name: Add colors and emojis to languages
-        run: |
-          sed -i 's/TypeScript/🟦 TypeScript/g' README.md
-          sed -i 's/Java/☕ Java/g' README.md
-          sed -i 's/Python/🐍 Python/g' README.md
-          sed -i 's/YAML/📄 YAML/g' README.md
-          sed -i 's/JavaScript/🟨 JavaScript/g' README.md
-          sed -i 's/Markdown/📘 Markdown/g' README.md
-          sed -i 's/HTML/🔶 HTML/g' README.md
-          sed -i 's/Bash/💚 Bash/g' README.md
-          sed -i 's/Other/🌐 Other/g' README.md
-          sed -i 's/Text/📝 Text/g' README.md
-          
-      - name: Commit and push changes
-        uses: EndBug/add-and-commit@v7
-        with:
-          author_name: "GitHub Actions"
-          author_email: "actions@github.com"
-          message: "Update README with WakaTime stats"
-          
