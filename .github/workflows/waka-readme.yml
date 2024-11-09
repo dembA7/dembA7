@@ -12,6 +12,9 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
       - uses: athul/waka-readme@master # this action name
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -22,6 +25,7 @@ jobs:
           SHOW_TIME: true
           SHOW_TOTAL: true
           BLOCKS: ->
+          
       - name: Add colors and emojis to languages
         run: |
           sed -i 's/TypeScript/🟦 <span style="color:#3178c6">TypeScript<\/span>/g' README.md
@@ -34,4 +38,11 @@ jobs:
           sed -i 's/Bash/💚 <span style="color:#89e051">Bash<\/span>/g' README.md
           sed -i 's/Other/🌐 <span style="color:#000000">Other<\/span>/g' README.md
           sed -i 's/Text/📝 <span style="color:#b8b8b8">Text<\/span>/g' README.md
+          
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: "GitHub Actions"
+          author_email: "actions@github.com"
+          message: "Update README with WakaTime stats"
           
