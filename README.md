@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Arturo and I'm an undergraduate student pursuing a major in Computer Science!</h2>
+<h2 align="center">👋 Hello! I'm Arturo.</h2>
 
 ###
 
