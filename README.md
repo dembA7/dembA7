@@ -9,16 +9,16 @@ From: 17 April 2024 - To: 08 November 2024
 
 Total Time: 307 hrs 36 mins
 
-🟦 <span style="color:#3178c6">TypeScript</span>        146 hrs 10 mins >>>>>>>>>>>>-------------   47.19 %
-🟫 <span style="color:#b07219">Java</span>              60 hrs 4 mins   >>>>>--------------------   19.39 %
-🐍 <span style="color:#3572A5">Python</span>            32 hrs 20 mins  >>>----------------------   10.44 %
-📄 <span style="color:#cb171e">YAML</span>              17 hrs 20 mins  >------------------------   05.60 %
-🟫 <span style="color:#b07219">Java</span>Script        16 hrs 37 mins  >------------------------   05.37 %
-📘 <span style="color:#083fa1">Markdown</span>          12 hrs 49 mins  >------------------------   04.14 %
-🔶 <span style="color:#e34c26">HTML</span>              10 hrs 47 mins  >------------------------   03.48 %
-💚 <span style="color:#89e051">Bash</span>              3 hrs 14 mins   -------------------------   01.04 %
-🌐 <span style="color:#000000">Other</span>             2 hrs 7 mins    -------------------------   00.69 %
-📝 <span style="color:#b8b8b8">Text</span>              1 hr 26 mins    -------------------------   00.47 %
+TypeScript        146 hrs 10 mins >>>>>>>>>>>>-------------   47.19 %
+Java              60 hrs 4 mins   >>>>>--------------------   19.39 %
+Python            32 hrs 20 mins  >>>----------------------   10.44 %
+YAML              17 hrs 20 mins  >------------------------   05.60 %
+JavaScript        16 hrs 37 mins  >------------------------   05.37 %
+Markdown          12 hrs 49 mins  >------------------------   04.14 %
+HTML              10 hrs 47 mins  >------------------------   03.48 %
+Bash              3 hrs 14 mins   -------------------------   01.04 %
+Other             2 hrs 7 mins    -------------------------   00.69 %
+Text              1 hr 26 mins    -------------------------   00.47 %
 ```
 
 <!--END_SECTION:waka-->
