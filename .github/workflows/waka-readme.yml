@@ -21,4 +21,5 @@ jobs:
           LANG_COUNT: 10
           SHOW_TIME: true
           SHOW_TOTAL: true
+          BLOCKS: "⣀⣄⣤⣦⣶⣷⣿"
           
