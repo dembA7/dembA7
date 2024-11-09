@@ -28,16 +28,16 @@ jobs:
           
       - name: Add colors and emojis to languages
         run: |
-          sed -i 's/TypeScript/🟦 <span style="color:#3178c6">TypeScript<\/span>/g' README.md
-          sed -i 's/Java/🟫 <span style="color:#b07219">Java<\/span>/g' README.md
-          sed -i 's/Python/🐍 <span style="color:#3572A5">Python<\/span>/g' README.md
-          sed -i 's/YAML/📄 <span style="color:#cb171e">YAML<\/span>/g' README.md
-          sed -i 's/JavaScript/🟨 <span style="color:#f1e05a">JavaScript<\/span>/g' README.md
-          sed -i 's/Markdown/📘 <span style="color:#083fa1">Markdown<\/span>/g' README.md
-          sed -i 's/HTML/🔶 <span style="color:#e34c26">HTML<\/span>/g' README.md
-          sed -i 's/Bash/💚 <span style="color:#89e051">Bash<\/span>/g' README.md
-          sed -i 's/Other/🌐 <span style="color:#000000">Other<\/span>/g' README.md
-          sed -i 's/Text/📝 <span style="color:#b8b8b8">Text<\/span>/g' README.md
+          sed -i 's/TypeScript/🟦 TypeScript/g' README.md
+          sed -i 's/Java/☕ Java/g' README.md
+          sed -i 's/Python/🐍 Python/g' README.md
+          sed -i 's/YAML/📄 YAML/g' README.md
+          sed -i 's/JavaScript/🟨 JavaScript/g' README.md
+          sed -i 's/Markdown/📘 Markdown/g' README.md
+          sed -i 's/HTML/🔶 HTML/g' README.md
+          sed -i 's/Bash/💚 Bash/g' README.md
+          sed -i 's/Other/🌐 Other/g' README.md
+          sed -i 's/Text/📝 Text/g' README.md
           
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v7
