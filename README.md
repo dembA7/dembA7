@@ -1,27 +1,6 @@
-<h2 align="center">👋 Hello! I'm Arturo.</h2>
+<h2 align="left">Hi 👋! My name is Arturo and I'm an undergraduate student pursuing a major in Computer Science!</h2>
 
 ###
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 17 April 2024 - To: 08 November 2024
-
-Total Time: 307 hrs 36 mins
-
-TypeScript        146 hrs 10 mins >>>>>>>>>>>>-------------   47.19 %
-Java              60 hrs 4 mins   >>>>>--------------------   19.39 %
-Python            32 hrs 20 mins  >>>----------------------   10.44 %
-YAML              17 hrs 20 mins  >------------------------   05.60 %
-JavaScript        16 hrs 37 mins  >------------------------   05.37 %
-Markdown          12 hrs 49 mins  >------------------------   04.14 %
-HTML              10 hrs 47 mins  >------------------------   03.48 %
-Bash              3 hrs 14 mins   -------------------------   01.04 %
-Other             2 hrs 7 mins    -------------------------   00.69 %
-Text              1 hr 26 mins    -------------------------   00.47 %
-```
-
-<!--END_SECTION:waka-->
 
 ###
 
