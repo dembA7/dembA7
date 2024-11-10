@@ -2,11 +2,67 @@
 
 ###
 
-###
-
 [![dembA7's GitHub stats](https://github-readme-stats.vercel.app/api?username=dembA7&theme=discord_old_blurple&hide=stars,contribs)](https://github.com/dembA7/github-readme-stats)
 ###
 [![dembA7's Waka languages](https://github-readme-stats.vercel.app/api/wakatime?username=dembA7&theme=discord_old_blurple&layout=compact&custom_title=%20Where%20my%20coding%20hours%20go!&langs_count=16)](https://github.com/dembA7/github-readme-stats)
+
+###
+```java
+/**
+ * A basic class representing a person with their name and years of coding experience. 👨‍💻
+ */
+class Person {
+    protected String name;
+    protected int yearsCoding;
+
+    public Person(String name, int yearsCoding) {
+        this.name = name;
+        this.yearsCoding = yearsCoding;
+    }
+
+    /**
+     * Introduces the person. 👋
+     */
+    public void introduce() {
+        System.out.println("Hi, I'm " + name + "!");
+        System.out.println("I've been coding for " + yearsCoding + " years.");
+    }
+}
+
+/**
+ * A class for a developer who loves coding. 👀💻
+ */
+public class AboutMe extends Person {
+
+    private String[] favoriteLanguages;
+    private String favoriteActivity;
+
+    public AboutMe(String name, int yearsCoding, String[] favoriteLanguages, String favoriteActivity) {
+        super(name, yearsCoding);
+        this.favoriteLanguages = favoriteLanguages;
+        this.favoriteActivity = favoriteActivity;
+    }
+
+    /**
+     * Prints out more details about this person, such as favorite languages and activity. 🌟🚀
+     */
+    @Override
+    public void introduce() {
+        super.introduce();
+        System.out.println("I'm passionate about " + favoriteActivity + ".");
+        System.out.println("Some languages I enjoy coding in are:");
+        for (String language : favoriteLanguages) {
+            System.out.println(" - " + language);
+        }
+    }
+
+    public static void main(String[] args) {
+        String[] favoriteLanguages = {"Java", "TypeScript", "Python"};
+        AboutMe me = new AboutMe("Arturo", 3, favoriteLanguages, "exploring AI and creating impactful code");
+        me.introduce();
+    }
+}
+```
 
 ###
 
