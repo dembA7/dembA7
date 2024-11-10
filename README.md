@@ -1,12 +1,17 @@
-<h2 align="left">Hi 👋! My name is Arturo and I'm an undergraduate student pursuing a major in Computer Science!</h2>
+<h1 align="center">👋 Hello! I'm Arturo.</h2>
 
 ###
+
+<h2 align="left">Check out some of my coding stats! 👨‍💻</h2>
 
 [![dembA7's GitHub stats](https://github-readme-stats.vercel.app/api?username=dembA7&theme=discord_old_blurple&hide=stars,contribs)](https://github.com/dembA7/github-readme-stats)
 ###
 [![dembA7's Waka languages](https://github-readme-stats.vercel.app/api/wakatime?username=dembA7&theme=discord_old_blurple&layout=compact&custom_title=%20Where%20my%20coding%20hours%20go!&langs_count=16)](https://github.com/dembA7/github-readme-stats)
 
 ###
+
+<h2 align="left">Get to know me... 📖</h2>
+
 ```java
 /**
  * A basic class representing a person with their name and years of coding experience. 👨‍💻
@@ -72,6 +77,8 @@ public class AboutMe extends Person {
 <img align="right" height="150" src="https://media.giphy.com/media/xUA7aW1ddSxtVT5zzi/giphy-downsized-large.gif"  />
 
 ###
+
+<h2 align="left">🤖 Some tech I use: </h2>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
@@ -158,6 +165,8 @@ public class AboutMe extends Person {
 ![snake_gif](https://github.com/dembA7/dembA7/blob/output/github-contribution-grid-snake-dark.svg)
 
 ###
+
+<h2 align="left">Reach out to me! 🗣</h2>
 
 <div align="center">
   <a href="http://discordapp.com/users/596252072974876672" target="_blank">
