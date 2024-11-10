@@ -4,7 +4,7 @@
 
 <h2 align="left">Check out some of my coding stats! 👨‍💻</h2>
 
-[![dembA7's GitHub stats](https://github-readme-stats.vercel.app/api?username=dembA7&theme=discord_old_blurple&hide=stars,contribs)](https://github.com/dembA7/github-readme-stats)
+[![dembA7's GitHub stats](https://github-readme-stats.vercel.app/api?username=dembA7&theme=discord_old_blurple&hide=stars,contribs&include_all_commits=true&rank_icon=github&custom_title=GitHub%20Stats)](https://github.com/dembA7/github-readme-stats)
 ###
 [![dembA7's Waka languages](https://github-readme-stats.vercel.app/api/wakatime?username=dembA7&theme=discord_old_blurple&layout=compact&custom_title=%20Where%20my%20coding%20hours%20go!&langs_count=16)](https://github.com/dembA7/github-readme-stats)
 
