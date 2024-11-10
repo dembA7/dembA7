@@ -36,11 +36,13 @@ public class AboutMe extends Person {
 
     private String[] favoriteLanguages;
     private String favoriteActivity;
+    private String major;
 
-    public AboutMe(String name, int yearsCoding, String[] favoriteLanguages, String favoriteActivity) {
+    public AboutMe(String name, int yearsCoding, String[] favoriteLanguages, String favoriteActivity, String major) {
         super(name, yearsCoding);
         this.favoriteLanguages = favoriteLanguages;
         this.favoriteActivity = favoriteActivity;
+        this.major = major;
     }
 
     /**
@@ -49,6 +51,7 @@ public class AboutMe extends Person {
     @Override
     public void introduce() {
         super.introduce();
+        System.out.println("I'm an undergraduate student pursuing a major in " + major + "! 🎓");
         System.out.println("I'm passionate about " + favoriteActivity + ".");
         System.out.println("Some languages I enjoy coding in are:");
         for (String language : favoriteLanguages) {
@@ -58,7 +61,7 @@ public class AboutMe extends Person {
 
     public static void main(String[] args) {
         String[] favoriteLanguages = {"Java", "TypeScript", "Python"};
-        AboutMe me = new AboutMe("Arturo", 3, favoriteLanguages, "exploring AI and creating impactful code");
+        AboutMe me = new AboutMe("Arturo", 3, favoriteLanguages, "exploring AI and creating impactful code", "Computer Science at ITESM Qro");
         me.introduce();
     }
 }
