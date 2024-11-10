@@ -4,9 +4,9 @@
 
 ###
 
-[![dembA7's GitHub stats](https://github-readme-stats.vercel.app/api?username=dembA7&theme=dracula&hide=contribs,issues)](https://github.com/dembA7/github-readme-stats)
+[![dembA7's GitHub stats](https://github-readme-stats.vercel.app/api?username=dembA7&theme=material-palenight&hide=stars,contribs)](https://github.com/dembA7/github-readme-stats)
 ###
-[![dembA7's GitHub languages](https://github-readme-stats.vercel.app/api/top-langs?username=dembA7&locale=en&hide_title=false&layout=pie&card_width=320&langs_count=10&theme=dracula&hide_border=false")](https://github.com/dembA7/github-readme-stats)
+[![dembA7's Waka languages](https://github-readme-stats.vercel.app/api/wakatime?username=dembA7&layout=compact&theme=material-palenight&custom_title=%20Where%20my%20coding%20hours%20go!&langs_count=16)](https://github.com/dembA7/github-readme-stats)
 
 ###
 
