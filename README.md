@@ -12,64 +12,39 @@
 
 <h2 align="left">Get to know me... 📖</h2>
 
-```java
-/**
- * A basic class representing a person with their name and years of coding experience. 👨‍💻
- */
-class Person {
-    protected String name;
-    protected int yearsCoding;
+```python
+class Arturo:
+    def __init__(self):
+        self.role = "Software Engineer"
 
-    public Person(String name, int yearsCoding) {
-        this.name = name;
-        this.yearsCoding = yearsCoding;
-    }
+        self.languages = [
+            "Python",
+            "TypeScript",
+            "Java"
+        ]
 
-    /**
-     * Introduces the person. 👋
-     */
-    public void introduce() {
-        System.out.println("Hi, I'm " + name + "!");
-        System.out.println("I've been coding for " + yearsCoding + " years.");
-    }
-}
+        self.interests = [
+            "Backend Engineering",
+            "Cloud & AWS",
+            "Master Data Management",
+            "AI"
+        ]
 
-/**
- * A class for a developer who loves coding. 👀💻
- */
-public class AboutMe extends Person {
+    def introduce(self):
+        print("Hi, I'm Arturo 👋")
+        print(f"I'm a {self.role} passionate about building scalable systems.\n")
 
-    private String[] favoriteLanguages;
-    private String favoriteActivity;
-    private String major;
+        print("Tech I enjoy working with:")
+        for language in self.languages:
+            print(f" - {language}")
 
-    public AboutMe(String name, int yearsCoding, String[] favoriteLanguages, String favoriteActivity, String major) {
-        super(name, yearsCoding);
-        this.favoriteLanguages = favoriteLanguages;
-        this.favoriteActivity = favoriteActivity;
-        this.major = major;
-    }
+        print("\nCurrent interests:")
+        for interest in self.interests:
+            print(f" - {interest}")
 
-    /**
-     * Prints out more details about this person, such as favorite languages and activity. 🌟🚀
-     */
-    @Override
-    public void introduce() {
-        super.introduce();
-        System.out.println("I'm an undergraduate student pursuing a major in " + major + "! 🎓");
-        System.out.println("I'm passionate about " + favoriteActivity + ".");
-        System.out.println("Some languages I enjoy coding in are:");
-        for (String language : favoriteLanguages) {
-            System.out.println(" - " + language);
-        }
-    }
 
-    public static void main(String[] args) {
-        String[] favoriteLanguages = {"Java", "TypeScript", "Python"};
-        AboutMe me = new AboutMe("Arturo", 3, favoriteLanguages, "exploring AI and creating impactful code", "Computer Science at ITESM Qro");
-        me.introduce();
-    }
-}
+me = Arturo()
+me.introduce()
 ```
 
 ###
