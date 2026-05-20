@@ -2,12 +2,6 @@
 
 ###
 
-<h2 align="left">Check out some of my coding stats! 👨‍💻</h2>
-
-[![dembA7's GitHub stats](https://github-readme-stats.vercel.app/api?username=dembA7&theme=discord_old_blurple&hide=stars,contribs&include_all_commits=true&rank_icon=github&custom_title=GitHub%20Stats&show=reviews)](https://github.com/dembA7/github-readme-stats)
-###
-[![dembA7's Waka languages](https://github-readme-stats.vercel.app/api/wakatime?username=dembA7&theme=discord_old_blurple&layout=compact&custom_title=%20Where%20my%20coding%20hours%20go!&langs_count=16)](https://github.com/dembA7/github-readme-stats)
-
 <p align="left">
     <a href="https://wakatime.com/@018eeebd-19fc-4438-961f-4d498daeb08e">
         <img src="https://wakatime.com/badge/user/018eeebd-19fc-4438-961f-4d498daeb08e.svg" alt="Total time coded since Apr 17 2024" />
